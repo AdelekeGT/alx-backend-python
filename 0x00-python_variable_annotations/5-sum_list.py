@@ -2,7 +2,7 @@
 """Module contains a type-annotated function"""
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """
     Function takes a list of floats and returns their sum as a float
 
@@ -12,4 +12,4 @@ def sum_list(input_list: list[float]) -> float:
     Returns:
         float: the sum of the floats
     """
-    return sum(input_list)
+    return float(sum(input_list))
