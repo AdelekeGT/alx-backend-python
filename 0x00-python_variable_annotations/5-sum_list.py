@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Module contains a type-annotated function"""
+from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:
