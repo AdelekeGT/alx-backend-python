@@ -20,6 +20,3 @@ async def wait_random(max_delay=10):
     delay = max_delay * random.random()
     await asyncio.sleep(delay)
     return delay
-
-
-asyncio.run(wait_random())
